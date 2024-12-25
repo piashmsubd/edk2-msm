@@ -6,9 +6,9 @@ name: msm-Build
 # events but only for the master branch
 on:
   push:
-    branches: [master]
+    branches: [https://github.com/piashmsubd/REDMAGIC_6S_PRO.git]
   pull_request:
-    branches: [master]
+    branches: [twrp-12.1]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,7 +22,10 @@ jobs:
       max-parallel: 8
       matrix:
         device:
+          # SM8350
+          - NX669J
           # sm8150
+          
           - mh2lm
           - betalm
           - nabu
