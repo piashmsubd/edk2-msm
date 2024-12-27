@@ -6,9 +6,9 @@ name: msm-Build
 # events but only for the master branch
 on:
   push:
-    branches: [master]
+    branches: [https://github.com/piashmsubd/TWRP_NX669J_12.1.git]
   pull_request:
-    branches: [master]
+    branches: [Twrp_12.1]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
