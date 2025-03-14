@@ -22,7 +22,7 @@ jobs:
       max-parallel: 8
       matrix:
         device:
-          -sm8350
+          - sm8350
           - mh2lm
           - betalm
           - nabu
